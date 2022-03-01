@@ -1,0 +1,43 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(139, 139, 139);
+}
+
+.google{
+    width:1000px;
+    background-color: white;
+    margin:auto;
+    text-align: center;
+}
+
+.google-footer{
+    background-color: rgb(199, 199, 199);
+    display:flex;
+    padding:20px;
+    font-size:20px;
+}
+
+
+.fox{
+    text-align: center;
+    width:500px;
+    height:500px;
+    background-color: white;
+    margin:auto;
+    margin-top:200px;
+}
+
+.main-footer{
+    background-color: black;
+    color:white;
+    height: 80px;
+    text-align: center;
+    padding:25px;
+    font-size: 25px;
+    margin-top:200px;
+}
