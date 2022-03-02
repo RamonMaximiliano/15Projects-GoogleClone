@@ -10,18 +10,43 @@ body {
 
 .google {
     width: 1000px;
+    height: 950px;
     background-color: white;
     margin: auto;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .google-footer {
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(216, 216, 216);
     display: flex;
     padding: 20px;
     font-size: 20px;
+    margin-top: 700px;
 }
+
+.google-footer p {
+    margin-left: 30px;
+}
+
+.google-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.google-header img {
+    width: 50px;
+    margin-left: 20px;
+    border-radius: 50%;
+    border: solid black 1px;
+}
+
+
 
 
 .fox {
@@ -88,7 +113,7 @@ body {
     visibility: visible;
     /*transition muda a propriedade informada no tempo informado*/
     transition: width 0.1s;
-    cursor:pointer;
+    cursor: pointer;
 
 }
 
@@ -96,14 +121,14 @@ body {
 .menu {
     width: 1000px;
     margin: auto;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 
 }
 
-.menu-about-info{
+.menu-about-info {
     height: 60px;
     background-color: rgb(48, 48, 48);
-    color:white;
+    color: white;
     text-align: center;
     align-items: center;
     line-height: 60px;
