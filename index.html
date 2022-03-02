@@ -12,10 +12,24 @@
 <body>
     <nav class="menu">
         <ul class="list">
-            <li>Home</li>
-            <li>Google</li>
-            <li>Fox</li>
-            <li>About</li>
+            <li class="menuicons" onmouseover="showHome()" onmouseout="hideHome()"><img src="images/home.png">
+                <p class="menu-home class-hidden">Home</p>
+            </li>
+
+
+            <li class="menuicons" onmouseover="showGoogle()" onmouseout="hideGoogle()"><img src="images/google.png">
+                <p class="menu-Google class-hidden">Google</p>
+            </li>
+
+
+            <li class="menuicons" onmouseover="showFox()" onmouseout="hideFox()"><img src="images/fox.png">
+                <p class="menu-Fox class-hidden">Fox</p>
+            </li>
+
+
+            <li class="menuicons" onmouseover="showAbout()" onmouseout="hideAbout()"><img src="images/info-button.png">
+                <p class="menu-About class-hidden">About</p>
+            </li>
         </ul>
     </nav>
     <section class="google">
@@ -47,6 +61,7 @@
         </div>
     </section>
     <footer class="main-footer">Created by Ramon</footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
