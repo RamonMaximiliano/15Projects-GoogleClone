@@ -51,8 +51,8 @@ body {
 
 .fox {
     text-align: center;
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
     background-color: white;
     margin: auto;
     margin-top: 50px;
@@ -64,11 +64,13 @@ body {
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .fox-image {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 350px;
     margin: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -86,7 +88,7 @@ body {
 }
 
 .another:hover {
-    background-color: rgb(184, 115, 59);
+    background-color: rgb(253, 150, 66);
 }
 
 .main-footer {
@@ -227,4 +229,9 @@ body {
 
 .languages-div a {
     margin-right: 10px;
+}
+
+.ancorTag {
+    text-decoration: none;
+    color: black;
 }

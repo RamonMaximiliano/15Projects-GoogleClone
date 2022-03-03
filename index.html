@@ -17,67 +17,66 @@
     <nav class="menu">
         <ul class="list">
             <li class="menuicons" onmouseover="showHome()" onmouseout="hideHome()"><img src="images/home.png">
-                <p class="menu-home class-hidden">Home</p>
+                <p class="menu-home class-hidden"><a class="ancorTag" href="#Home" onclick="refresh()">Home</a></p>
             </li>
 
 
             <li class="menuicons" onmouseover="showGoogle()" onmouseout="hideGoogle()"><img src="images/google.png">
-                <p class="menu-Google class-hidden">Google</p>
+                <p class="menu-Google class-hidden"><a class="ancorTag" href="#GoogleClone">Google</a></p>
             </li>
 
 
             <li class="menuicons" onmouseover="showFox()" onmouseout="hideFox()"><img src="images/fox.png">
-                <p class="menu-Fox class-hidden">Fox</p>
+                <p class="menu-Fox class-hidden"><a class="ancorTag" href="#Fox">Fox</a></p>
             </li>
 
 
             <li class="menuicons" onmouseover="showAbout()" onmouseout="hideAbout()"><img src="images/info-button.png">
-                <p class="menu-About class-hidden">About</p>
+                <p class="menu-About class-hidden"><a class="ancorTag" href="#About">About</a></p>
             </li>
         </ul>
     </nav>
 
-    <div class="menu-about-info">The below is a Google Clone project</div>
+    <div class="menu-about-info" id="GoogleClone">The below is a Google Clone project</div>
 
     <section class="google">
         <header class="google-header">
-            <p>Images</p>
+            <p>Profile</p>
             <img src="images/programmer.png" alt="Picture">
         </header>
-
-
 
         <div class="main-google">
             <h1 class="google-title"><span class="blue">G</span><span class="red">o</span><span
                     class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span
                     class="red">e</span></h1>
             <input type="text" class="search" placeholder="Search something..."><br>
-            <button class="google-buttom google-search">Google Search</button>
-            <button class="google-buttom  feeling">I'm feeling lucky</button>
+            <button class="google-buttom google-search" onclick="googleSearch()">Google Search</button>
+            <button class="google-buttom  feeling" onclick="feeling()">I'm feeling lucky</button>
             <div class="languages-div">
                 <p class="languages">Languages Offered - </p>
-                <a href="">Portuguese</a><a href="">English</a><a href="">Spanish</a>
+                <a href="#">Portuguese</a><a href="#">English</a><a href="#">Spanish</a>
             </div>
         </div>
         <div class="google-footer">
-            <p class="advertising">Advertising</p>
-            <p class="Business">Business</p>
-            <p class="About">About</p>
+            <p class="advertising ancorTag"><a href="#" class="ancorTag">Advertising</a></p>
+            <p class="Business ancorTag"><a href="#" class="ancorTag">Business</a></p>
+            <p class="About ancorTag"><a href="#" class="ancorTag">About</a></p>
         </div>
     </section>
 
 
-    <div class="menu-about-info">The below is Fox Fetch API project</div>
+    <div class="menu-about-info" id="Fox">The below is Fox Fetch API project</div>
 
 
     <section class="fox">
         <div class="main-fox">
             <h1 class="fox-title">Fox images</h1>
-            <img src="images/fox.png" alt="A non fox info" class="fox-image">
-            <button class="another">ANOTHER</button>
+            <img src="images/fox.png" alt="This fox is travelling" class="fox-image">
+            <div class="p"></div>
+            <button class="another" onclick="loadFox()">ANOTHER</button>
         </div>
     </section>
-    <footer class="main-footer">Created by Ramon</footer>
+    <footer class="main-footer" id="About">Created by Ramon</footer>
     <script src="script.js"></script>
 </body>
 

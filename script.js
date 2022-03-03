@@ -48,5 +48,47 @@ function hideAbout() {
 /* menu-about*/
 
 
+/* FOX PROJECT */
+
+function loadFox() {
+    fetch("https://randomfox.ca/floof/")
+        .then(function (fox) {
+            return fox.json();
+        })
+        //abaixo tem que usar o "src" atribute para adicionar ele á image tag
+        .then(function (json) {
+            document.querySelector(".fox-image").src = (json.image)
+            console.log(json)
+        })
+        .catch(function () {
+            console.log("Deu erro");
+        })
+}
+
+/* FOX PROJECT */
+
+/* GOOGLE CLONE */
+
+function feeling() {
+    window.alert("Good for you!!!")
+}
 
 
+function googleSearch() {
+    let searchText = document.querySelector(".search").value
+    console.log(searchText)
+    if (searchText == '') {
+        window.alert("Type something!!!")
+    } else {
+        //on the below URL, whatever comes after the q= is the word google will search for 
+        window.open(`https://www.google.com/search?q=${searchText}`, "_blank")
+    }
+}
+
+/* GOOGLE CLONE */
+
+
+
+function refresh() {
+    window.location.reload()
+}
