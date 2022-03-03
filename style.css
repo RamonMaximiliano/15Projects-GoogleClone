@@ -10,12 +10,12 @@ body {
 
 .google {
     width: 1000px;
-    height: 950px;
+    height: 900px;
     background-color: white;
     margin: auto;
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .google-footer {
@@ -23,7 +23,7 @@ body {
     display: flex;
     padding: 20px;
     font-size: 20px;
-    margin-top: 500px;
+    margin-top: 350px;
 }
 
 .google-footer p {
@@ -51,11 +51,42 @@ body {
 
 .fox {
     text-align: center;
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     background-color: white;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.main-fox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.fox-image {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.another {
+    width: 100px;
+    height: 35px;
+    color: white;
+    background-color: rgb(255, 115, 0);
+    border-radius: 5px;
+    border: none;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.another:hover {
+    background-color: rgb(184, 115, 59);
 }
 
 .main-footer {
@@ -65,7 +96,7 @@ body {
     text-align: center;
     padding: 25px;
     font-size: 25px;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .menuicons {
@@ -136,53 +167,64 @@ body {
 }
 
 
-.main-google{
-    margin-top:200px;
+.main-google {
+    margin-top: 200px;
 }
 
-.google-title{
-    font-size:80px;
+.google-title {
+    font-size: 80px;
 }
 
-.search{
-    font-size:15px;
-    width:500px;
+.search {
+    font-size: 15px;
+    width: 500px;
     height: 40px;
     border-radius: 20px;
     border: solid rgb(212, 210, 210) 1px;
-    padding:20px;
+    padding: 20px;
 }
 
-.google-buttom{
+.google-buttom {
     border-radius: 2px;
-    border-style:none;
-    margin:20px;
-    padding:6px;
-    width:150px;
-    color:rgb(94, 94, 94);
-} 
-
-.blue{
-    color:rgb(0, 153, 255);
+    border-style: none;
+    margin: 20px;
+    padding: 6px;
+    width: 150px;
+    color: rgb(82, 82, 82);
+    cursor: pointer;
+    background-color: rgb(214, 214, 214);
 }
 
-.red{
-    color:rgb(233, 83, 83);
+.blue {
+    color: rgb(0, 153, 255);
 }
 
-.yellow{
-    color:rgb(236, 181, 2);
+.red {
+    color: rgb(233, 83, 83);
 }
 
-.green{
-    color:green;
+.yellow {
+    color: rgb(236, 181, 2);
 }
 
-.languages-div{
-    display:flex;
-    width:400px;
-    margin:auto;
-    margin-top:20px;
+.green {
+    color: green;
+}
+
+.languages-div {
+    display: flex;
+    width: 350px;
+    margin: auto;
+    margin-top: 20px;
     text-align: center;
     align-items: center;
+}
+
+.languages {
+    margin-right: 5px;
+    margin-left: 12px;
+}
+
+.languages-div a {
+    margin-right: 10px;
 }
