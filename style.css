@@ -23,7 +23,7 @@ body {
     display: flex;
     padding: 20px;
     font-size: 20px;
-    margin-top: 700px;
+    margin-top: 500px;
 }
 
 .google-footer p {
@@ -133,4 +133,56 @@ body {
     align-items: center;
     line-height: 60px;
     font-size: 20px;
+}
+
+
+.main-google{
+    margin-top:200px;
+}
+
+.google-title{
+    font-size:80px;
+}
+
+.search{
+    font-size:15px;
+    width:500px;
+    height: 40px;
+    border-radius: 20px;
+    border: solid rgb(212, 210, 210) 1px;
+    padding:20px;
+}
+
+.google-buttom{
+    border-radius: 2px;
+    border-style:none;
+    margin:20px;
+    padding:6px;
+    width:150px;
+    color:rgb(94, 94, 94);
+} 
+
+.blue{
+    color:rgb(0, 153, 255);
+}
+
+.red{
+    color:rgb(233, 83, 83);
+}
+
+.yellow{
+    color:rgb(236, 181, 2);
+}
+
+.green{
+    color:green;
+}
+
+.languages-div{
+    display:flex;
+    width:400px;
+    margin:auto;
+    margin-top:20px;
+    text-align: center;
+    align-items: center;
 }
